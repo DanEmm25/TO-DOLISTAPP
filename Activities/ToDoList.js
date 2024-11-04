@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   inputContainer: {
-    flexDirection: 'row',
+    flexDirection: 'Column',
     marginBottom: 20,
   },
   input: {
@@ -84,9 +84,12 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 5,
     marginLeft: 10,
+    marginRight: 10,
+    marginBottom: 10,
   },
   addButton: {
     backgroundColor: '#0000FF',
+    width: 50,
     padding: 10,
     marginLeft: 10,
     marginRight: 10,
